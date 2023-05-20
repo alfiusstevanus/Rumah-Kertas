@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/MontserratAlternates-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Bebasneue';
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 19em;
+}
+button{
+    background-color: red;
+    text-align: center;
+    display: block;
+    color: white;
+}
+
+header img {
+    width: 5em;
+}
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 75vh;
+    padding: 0 20em;
+    gap: 5em;
+}
+
+.update input {
+    border: 1px solid #444343;
+    border-radius: 0;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    width: 17.2em;
+}
+
+#up {
+    text-align: center;
+    flex: 3;
+}
+
+.update{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3em;
+    text-align: left;
+    padding-bottom: 3em;    
+}
+.updateId{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+    text-align: left;
+    padding-bottom: 1em;    
+}
+
+.update input{
+    border-radius: 5px;
+    border-color: rgba(68, 67, 67, 0.22) ;
+    border-width: 2px;
+    transition: 500ms;
+    width: 85%;
+}
+
+.update input:hover{
+    border-color: blueviolet;
+}
+
+label span{
+    display: block;
+    padding-bottom: 1.6em ;
+}
+
+.picture{
+    border-radius: 7px;
+    flex: 1;
+    width: 20em;
+}
+
+h1{
+    color: #444343;
+    font-family: 'Bebasneue';
+    letter-spacing: 0.27em;
+    font-size: 50px;
+    position: relative;
+    bottom: 1em;
+}
+
+h1 span{
+    color: blueviolet;
+}
+
+input[type='submit']{
+    border-radius: 3px;
+    background-color: #5907ef;
+    border: 1px solid #444343;
+    color: aliceblue;
+    padding: 1em 6em;
+    font-size: 13pt;
+    font-weight: bolder;
+    transition: 450ms;
+    display: block;
+    margin: 0 auto;
+}
+
+input[type='submit']:hover{
+    background-color: aliceblue;
+    border: 1px solid #444343;
+    color: #5907ef;
+}
+
+a{
+    display: block;
+    margin-top: 1em;
+    font-style: italic;
+    font-size: smaller;
+    text-decoration: dashed;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#image{
+    display: none;
+}
+
+#img{
+    /* padding-top: 2.1em; */
+}
+
+.picture button{
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #444343;
+    color: #444343;
+    padding: 0.6em 3em;
+    font-size: 13pt;
+    font-weight: bolder;
+    transition: 450ms;
+    display: block;
+    margin: 0 auto;
+}
+
+.picture button:hover{
+    background-color: #5907ef;
+    border: 1px solid #444343;
+    color: #ffffff;
+}

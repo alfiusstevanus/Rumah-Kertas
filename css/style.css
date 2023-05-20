@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*,
+body {
+  margin: 5px 5px;
+  padding: 0;
+}
+
+.Header {
+  display: flex;
+}
+
+.wrapper {
+  position: relative;
+  margin-right: 30px;
+  display: flex;
+  width: 100%;
+  height: 50%;
+  justify-content: space-between;
+  border-bottom: 10px;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: 'Bebas Neue';
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 75px;
+  font-weight: 300;
+  letter-spacing: 6px;
+}
+
+.desc-hero {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 40px;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.search {
+  margin-top: 40px;
+  width: 50%;
+  height: 40px;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #dbdbdb;
+}
+
+.search input {
+  font-family: 'Montserrat';
+  background: transparent;
+  border: none;
+  flex: 1;
+  outline: none;
+  padding: 24px;
+  color: #2e2d2d;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.search-icon {
+  filter: invert(1);
+  position: relative;
+
+}
+
+.btn-cari {
+  padding-left: 50px;
+  background-color: #5907ef;
+  width: 100px;
+  border-color: #5907ef;
+  border-style: dotted;
+  cursor: pointer;
+}
+
+.right-content {
+  margin-top: 2em;
+  margin-left: 5em;
+}
+
+.left-content {
+  margin-top: -2em;
+  margin-left: 5em;
+}
+
+.hero-book-title {
+  margin-top: -20px;
+  margin-left: 90px;
+}
+
+h4 {
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.main-title {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.Book-content{
+  justify-content: space-evenly;
+}
+.card {
+  border: none;
+  margin-top: 30px;
+  margin-left: 3em;
+  text-align: center;
+  justify-content: center;
+  width: 15%;
+}
+
+.btn-pinjam{
+  background-color: #5907ef;
+  border: none;
+  width: 100px;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+
+
+/* 
+*,main,body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container,section,body {
+    /* background-color: #5907ef;   
+  }
+  .profil{
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+
+  #block{
+    display: grid;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+  }
+  
+  .form,form {
+    width: 350px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 20px 0px 20px rgba(0,0,0,0.1);
+  }
+  .search{
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    gap: 1rem;
+  }
+
+  #center{
+    margin: 0 auto;
+    text-align: center;
+  }
+  table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 200px;
+    border-radius: 20%;
+  }
+  
+
+  td, th {
+    border: 1px solid black;
+  }
+  
+  h1,h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 36px;
+  }
+  
+  label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    width: 100%;
+    border: 2px solid black ;
+    border-radius: 0%;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  .block{
+    display: block;
+
+  }
+  
+  input[type="submit"] {
+    background-color: #f2f2f2;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }  
+  a {
+    text-decoration: none;
+<<<<<<< HEAD
+  } */
+
+
+/* .card {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    height: 400px;
+    box-shadow: 0 0px 30px rgba(0,0,0,.1);
+} */
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  margin-left: 25px;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.card p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.card .price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f00;
+}
+
+.btn-primary {
+  width: fit-content;
+  height: 48px;
+}
+
+.car {
+  display: inline-block;
+}

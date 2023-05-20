@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background: #ece6ee;
+    overflow: hidden;
+}
+
+.Container{
+    margin : auto;
+    margin-top: 10%;
+    margin-right: 5%;
+    width: 80%;
+    height: 10px;
+    padding: 5px;
+    padding-bottom: 50%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1{
+    margin: 20px;
+    font-size: 36px;
+}
+
+.search{
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+table{
+    margin: auto;
+    margin-top: -10px;
+    width: 100%;
+    padding: 20px;
+    border: none;
+}
+
+thead{
+    background-color: #444343;
+    color: white;
+    border: none;
+}

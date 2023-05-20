@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+img{
+    display: inline-flex;
+    width: 5em;
+    max-width: 100%;
+    height: auto; 
+}
+
+.picture{
+    width: 120px;
+    height: 120px;
+    height: auto;
+    float: left;
+    margin: 3px;
+    padding: 3px;
+}
+
+img.atr{
+    width: 100em;
+}
+
+.logo{
+    position: relative;
+    left: 19em;
+}
+
+.atr{
+    position: relative;
+    left: 91em;
+
+}
+
+.picture{
+    position: absolute;
+    top: 16.5em;
+    left: 70em;
+    z-index: -3;
+    width: 30em;
+    background-position-x: 20%;
+    background-position-Y: 20%;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.user{
+    color: #444343;
+    height: auto;
+    width: 43%;
+    margin-bottom: 2em;
+    padding-top: 8em;
+    padding-left: 20em;
+}
+
+.update{
+    color: #444343;
+    height: auto;
+    width: 43%;
+    padding-left: 20em; 
+}
+
+.username{
+    font-size: 3rem;
+    padding-bottom: -1em;
+}
+
+.email, .status{
+    font-size: 1.1rem;
+    padding-bottom: 5px;
+}
+
+.usr-email, .usr-sta{
+    font-style: italic;
+    font-size: small;
+}
+
+.star{
+    font-weight: bold;
+}
+
+.square {
+    height: 4px;
+    width: 120px;
+    background-color: #444343;
+    margin-top: 2.5em;
+    margin-bottom: 3em;
+    border-radius: 21px;
+}
+
+
+.button {
+    border: 1px solid #444343;
+    border-radius: 0;
+    background-color: #5907ef;
+    color: white;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    width: 17.2em;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: white;
+    color: #5907ef  ;
+}
+
+.link{
+    display: block;
+    top: 3em;
+    right: 17.5em;
+    font-style: italic;
+    font-size: smaller;
+    margin-top: 30px;
+    text-decoration: dashed;
+}
+
+a.link:hover{
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    position: relative;
+    top: 12em;
+    background-color: #343434;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    color: rgb(255, 255, 255);
+}
+
